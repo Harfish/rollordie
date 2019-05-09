@@ -19,7 +19,8 @@ class Roll extends Component {
       isDisabled: false,
       totalStyle: 'ok',
       result: '',
-      game: ''
+      game: '',
+      animate: 'dice'
     };
     this.onRoll=this.onRoll.bind(this)
    }
@@ -48,11 +49,21 @@ class Roll extends Component {
   }
    
   onRoll = () => {
-    this.setState({ roll:  Math.floor(Math.random() * 6) + 1});
     this.setState((state) => ({
-      total: state.total + state.roll
+      animate: 'diceshaking',
+      isDisabled: true
+    }))
+    var delay = Math.floor(Math.random() * 500) + 1000
+    setTimeout(() => {
+      this.setState({ roll:  Math.floor(Math.random() * 6) + 1});
+      this.setState((state) => ({
+        animate: 'dice',
+        isDisabled: false,
+        total: state.total + state.roll
     }),() => {this.detectResult()}
-    )
+    )}
+    ,delay)
+    
   };
   
   resetGame = () => {
@@ -62,7 +73,8 @@ class Roll extends Component {
       isDisabled: false,
       totalStyle: 'ok',
       result: '',
-      game: ''
+      game: '',
+      animate: 'dice'
     }))
   }
 
@@ -94,8 +106,9 @@ class Roll extends Component {
         alignItems="center"
         >
           <Grid item>
-            <Paper>
-              <p>Roll: {this.state.roll} </p>
+            <Paper style={{ textAlign: "center" }}>
+              <p>Roll or Die is a simple dice game. Simply roll until you get exactly 20 to win.</p>
+              <img src={process.env.PUBLIC_URL + '/images/' +  this.state.roll + '.png'} alt='dice' className={this.state.animate}></img>
             </Paper>
           </Grid>
         </Grid>

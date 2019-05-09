@@ -2,7 +2,7 @@
   "name": "react-tutorial",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://harfish.github.io/roll-or-die",
+  "homepage": "https://harfish.github.io/rollordie",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "gh-pages": "^2.0.1",

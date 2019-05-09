@@ -12,3 +12,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+p.ok {
+  border-style: none;
+}
+
+p.danger {
+  border-style: solid;
+  border-color: yellow;
+}
+
+p.bust {
+  border-style: solid;
+  border-color: red;
+}
+
+p.win {
+  border-style: solid;
+  border-color: green;
+}

@@ -53,7 +53,7 @@ class Roll extends Component {
       animate: 'diceshaking',
       isDisabled: true
     }))
-    var delay = Math.floor(Math.random() * 500) + 1000
+    var delay = Math.floor(Math.random() * 500) + 500
     setTimeout(() => {
       this.setState({ roll:  Math.floor(Math.random() * 6) + 1});
       this.setState((state) => ({

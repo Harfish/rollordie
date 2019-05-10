@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rollordie/static/css/main.feccc708.chunk.css",
-    "main.js": "/rollordie/static/js/main.92ee6a02.chunk.js",
-    "main.js.map": "/rollordie/static/js/main.92ee6a02.chunk.js.map",
+    "main.css": "/rollordie/static/css/main.cf030918.chunk.css",
+    "main.js": "/rollordie/static/js/main.f2df2dfe.chunk.js",
+    "main.js.map": "/rollordie/static/js/main.f2df2dfe.chunk.js.map",
     "runtime~main.js": "/rollordie/static/js/runtime~main.fc2b89a5.js",
     "runtime~main.js.map": "/rollordie/static/js/runtime~main.fc2b89a5.js.map",
     "static/js/2.24465e23.chunk.js": "/rollordie/static/js/2.24465e23.chunk.js",
     "static/js/2.24465e23.chunk.js.map": "/rollordie/static/js/2.24465e23.chunk.js.map",
     "index.html": "/rollordie/index.html",
-    "precache-manifest.1da26e76e4712a6d794ec8e39bf5ea94.js": "/rollordie/precache-manifest.1da26e76e4712a6d794ec8e39bf5ea94.js",
+    "precache-manifest.a1bb8de059407d01f54ceeca189405f9.js": "/rollordie/precache-manifest.a1bb8de059407d01f54ceeca189405f9.js",
     "service-worker.js": "/rollordie/service-worker.js",
-    "static/css/main.feccc708.chunk.css.map": "/rollordie/static/css/main.feccc708.chunk.css.map"
+    "static/css/main.cf030918.chunk.css.map": "/rollordie/static/css/main.cf030918.chunk.css.map"
   }
 }

@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7f041da7dd854d9efbd8e0a5d9aafda",
+    "revision": "bce930aeb0e952695d78fdcfc10b3ca7",
     "url": "/rollordie/index.html"
   },
   {
-    "revision": "531f08fb20afcd2db3fd",
-    "url": "/rollordie/static/css/main.feccc708.chunk.css"
+    "revision": "62c49994d63c58fe1d7f",
+    "url": "/rollordie/static/css/main.cf030918.chunk.css"
   },
   {
     "revision": "41dd3d2743248b211c35",
     "url": "/rollordie/static/js/2.24465e23.chunk.js"
   },
   {
-    "revision": "531f08fb20afcd2db3fd",
-    "url": "/rollordie/static/js/main.92ee6a02.chunk.js"
+    "revision": "62c49994d63c58fe1d7f",
+    "url": "/rollordie/static/js/main.f2df2dfe.chunk.js"
   },
   {
     "revision": "c797df47054697abcc88",
